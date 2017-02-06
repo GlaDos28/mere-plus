@@ -1,0 +1,35 @@
+{
+  "name": "mere-plus",
+  "version": "0.0.0",
+  "description": "Library that allows binding string-formed tasks to functions and provides a large collection of instruments based on Mere library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlaDos28/mere-plus.git"
+  },
+  "keywords": [
+    "behavior",
+    "binding",
+    "task",
+    "string-formed",
+    "mere",
+    "mere+"
+  ],
+  "author": "Evgeny Savelyev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GlaDos28/mere-plus/issues"
+  },
+  "homepage": "https://github.com/GlaDos28/mere-plus#readme",
+  "dependencies": {
+    "mere": "^0.5.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
