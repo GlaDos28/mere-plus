@@ -3,7 +3,7 @@
 Mere+ (mere-plus) provides an extension of a [![Mere](https://github.com/GlaDos28/mere)]() library.
 To see what Mere library does, look at its [![README](https://github.com/GlaDos28/mere/blob/master/README.md)]().
 
-***The library is under construction, but it is partly accesed now!***
+[![danger.png](https://s28.postimg.org/5j9r5brv1/danger.png)](https://postimg.org/image/4486glqrt/) ***The library is under construction, but it is partly accesed now!*** [![danger.png](https://s28.postimg.org/5j9r5brv1/danger.png)](https://postimg.org/image/4486glqrt/)
 
 Overall list of new instruments:
 
