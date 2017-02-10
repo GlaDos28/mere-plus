@@ -4,7 +4,9 @@
   "description": "Library that allows binding string-formed tasks to functions and provides a large collection of instruments based on Mere library",
   "main": "index.js",
   "scripts": {
-    "test": "node ./index.js"
+    "index": "node ./index.js",
+    "test": "mocha --harmony",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha test/indexSpec.js"
   },
   "repository": {
     "type": "git",

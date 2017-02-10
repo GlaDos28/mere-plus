@@ -12,3 +12,35 @@ Overall list of new instruments:
 - gain statistic <img src="https://s27.postimg.org/3npt6xm9f/unchecked_1.png">
 - memoization <img src="https://s24.postimg.org/4ar2fhkk5/checked.png">
 
+___
+
+### Extensions
+
+##### Memoization
+
+```javascript
+task.memoize();
+```
+
+Application will save the result for each argument combination. Note that responsibility of task memoization is laid on user.
+Excess arguments are removed when checking memoization data, as well as missing arguments are put undefined.
+
+### Examples
+
+##### Fibonacci with memoization
+
+```javascript
+require("mere");
+
+"fib".bind((k) => {
+	if (k <= 2)
+		return 1;
+	
+	return "fib".make(k - 1) + "fib".make(k - 2);
+});
+
+"fib".memoize();
+
+console.log("fib".make(50));
+```
+
